@@ -1,0 +1,48 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/client/monitor-me/dist
+/client/monitor-me/tmp
+/client/monitor-me/out-tsc
+
+# dependencies
+/client/monitor-me/node_modules
+
+# IDEs and editors
+/client/monitor-me/.idea
+/client/monitor-me/.project
+/client/monitor-me/.classpath
+/client/monitor-me/.c9/
+*.launch
+/client/monitor-me/.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+/client/monitor-me/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/client/monitor-me/.sass-cache
+/client/monitor-me/connect.lock
+/client/monitor-me/coverage
+/client/monitor-me/libpeerconnection.log
+/client/monitor-me/npm-debug.log
+/client/monitor-me/testem.log
+/client/monitor-me/typings
+
+# e2e
+/client/monitor-me/e2e/*.js
+/client/monitor-me/e2e/*.map
+
+# System Files
+/client/monitor-me/.DS_Store
+/client/monitor-me/Thumbs.db
+
+# cordova
+/client/monitor-me/cordova/node_modules
+/client/monitor-me/cordova/www
+
+
