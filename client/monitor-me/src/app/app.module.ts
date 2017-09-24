@@ -9,7 +9,7 @@ import { ForgotMyPasswordButtonComponent } from './self-registration-form/forgot
   declarations: [
     AppComponent,
     SelfRegistrationFormComponent,
-    ForgotMyPasswordButtonComponent
+    ForgotMyPasswordButtonComponent,
   ],
   imports: [
     BrowserModule
