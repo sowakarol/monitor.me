@@ -6,6 +6,7 @@ import { SelfRegistrationFormComponent } from './self-registration-form/self-reg
 import { ForgotMyPasswordButtonComponent } from './self-registration-form/forgot-my-password-button/forgot-my-password-button.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
+import { FriendListComponent } from './side-bar/friend-list/friend-list.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SideBarComponent } from './side-bar/side-bar.component';
     SelfRegistrationFormComponent,
     ForgotMyPasswordButtonComponent,
     TopBarComponent,
-    SideBarComponent
+    SideBarComponent,
+    FriendListComponent
   ],
   imports: [
     BrowserModule

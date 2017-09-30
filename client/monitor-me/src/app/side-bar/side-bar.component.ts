@@ -15,4 +15,14 @@ export class SideBarComponent implements OnInit {
     closeNav() {
         document.getElementById("side-bar").style.width = "0";
     }
+
+    openOrCloseFriends(){
+        var friendList = document.getElementById("friend-list");
+
+        if(friendList.style.height === "0%"){
+            friendList.style.height = "20%";
+        } else {
+            friendList.style.height = "0%";
+        }
+    }
 }

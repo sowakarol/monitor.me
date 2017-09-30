@@ -1,14 +1,10 @@
 /* The side navigation menu */
-.side-bar {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
+.friend-list {
+    height: 0; /* 0 width - change this with JavaScript */
+    width: 100%;
     z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #252525; /* Black*/
+    background-color: #7D7D7D; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 
     a {
@@ -25,13 +21,4 @@
         display: block;
         background: #4A4A4A
     }
-
-    .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-
 }

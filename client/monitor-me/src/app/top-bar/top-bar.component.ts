@@ -13,6 +13,6 @@ export class TopBarComponent implements OnInit {
   }
 
   openNav() {
-    document.getElementById("side-bar").style.width = "250px";
+    document.getElementById("side-bar").style.width = "20%";
   }
 }
