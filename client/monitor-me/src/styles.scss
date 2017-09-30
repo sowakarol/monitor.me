@@ -1,9 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-
-
 body {
     background-image: url("./assets/images/app-wallpaper.jpg");
-    font-family: 'Lobster', serif;
-  
+    font-family: 'Roboto', 'Lobster', serif;  
 }
-
+.app{
+    position: relative;
+    top: 45px;
+    width: 100%;
+    bottom:0;
+}
